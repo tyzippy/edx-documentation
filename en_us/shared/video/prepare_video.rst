@@ -228,9 +228,10 @@ Obtaining a Video Transcript
 
 .. only:: Partners
 
-   For courses on edx.org, transcripts must be in the SubRip Text (.srt)
-   format. For courses on Edge, we strongly recommend that you obtain timed
-   transcripts in the .srt format.
+  For courses on edx.org, transcripts must be in the SubRip Text (.srt) format.
+
+  For courses on Edge, we strongly recommend that you obtain timed transcripts
+  in the .srt format.
 
   To obtain a transcript in .srt format, you can work with a transcript
   provider such as `3Play Media`_ or `cielo24`_. 3Play Media and cielo24 offer
@@ -267,8 +268,8 @@ Obtaining a Video Transcript
     of with course teams. Check with your organization to see if the
     organization has an account with 3Play Media or cielo24.
 
-  #. Contact either 3Play Media or cielo24, and specify that you are an edX
-     partner.
+  #. Contact either `3Play Media`_ or `cielo24`_, and specify that you are an
+     edX partner.
 
      3Play Media or cielo24 give you credentials that you then enter in Studio.
 
@@ -278,7 +279,7 @@ Obtaining a Video Transcript
 
   #. On the **Video Uploads** page, locate **Course Video Settings**.
 
-  #. In the Course Video Settings panel, specify the information for your
+  #. In the **Course Video Settings** panel, specify the information for your
      organization.
 
      .. important::
@@ -286,12 +287,12 @@ Obtaining a Video Transcript
       your course uses a different company or different account, contact your
       organization's administrator.
 
-     * If your organization uses 3Play Media, select 3Play Media under
-       Automated Transcripts, and then enter your API key and secret key. When
-       you have entered this information, select Update Settings.
+     * If your organization uses 3Play Media, select **3Play Media** under
+       **Automated Transcripts**, and then enter your API key and secret key.
+       When you have entered this information, select **Update Settings**.
 
-     * If your organization uses cielo24, select cielo24 under Automated
-       Transcripts, enter your API key, and then select Update Settings.
+     * If your organization uses cielo24, select **cielo24** under **Automated
+       Transcripts**, enter your API key, and then select **Update Settings**.
 
   .. _Non Integrated Transcripts:
 

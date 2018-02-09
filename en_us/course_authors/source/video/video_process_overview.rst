@@ -36,8 +36,7 @@ edx.org course.
 #. The course team :ref:`creates video components <Add a Video to an edx org
    Course>` and adds the video information to the components.
 
-For more information, see :ref:`Obtain a Video Transcript` or :ref:`Add
-a Video to a Course`.
+
 
 .. _Video Process for Courses on Edge:
 

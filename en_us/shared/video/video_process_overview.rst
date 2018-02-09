@@ -27,5 +27,3 @@
 #. The course team :ref:`creates video components <Add a Video to an edx org
    Course>` and adds the video and transcript information to the components.
 
-For more information, see :ref:`Obtain a Video Transcript` or :ref:`Add
-a Video to a Course`.

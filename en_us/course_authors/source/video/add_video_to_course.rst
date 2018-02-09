@@ -18,6 +18,11 @@ The information is different for courses on edx.org and courses on Edge.
 Add a Video to an edx.org Course
 ********************************
 
+.. note::
+  **This information applies only to courses that run on the edx.org site.**
+  For information about adding videos to courses that run on Edge, see
+  :ref:`Add a Video to an Edge Course`.
+
 For courses on edx.org, you add the following information to the video
 component.
 
@@ -59,6 +64,11 @@ videos. The report includes the video ID for every uploaded file.
 =====================
 Add a Video Component
 =====================
+
+.. note::
+  **This information applies only to courses that run on the edx.org site.**
+  For information about adding videos to courses that run on Edge, see
+  :ref:`Add a Video to an Edge Course`.
 
 To add a video and its transcript to an edx.org course, follow these steps.
 
@@ -110,6 +120,11 @@ transcript by selecting the **CC** icon.
 ********************************
 Add a Video to an Edge Course
 ********************************
+
+.. note::
+  **This information applies only to courses that run on the Edge site.**
+  For information about adding videos to courses that run on edx.org, see
+  :ref:`Add a Video to an edx org Course`.
 
 For courses on Edge, you add the following information to the video
 component.
