@@ -8,21 +8,24 @@
     The following diagram outlines the general process for adding videos to a
     course.
 
-.. image:: ../images/EdgeAddVideoOverview.png
+.. image:: ../../../shared/images/EdgeAddVideoOverview.png
   :alt: The process for adding videos to a course, as outlined in the following
       numbered steps.
 
-#. The course team prepares to add videos to the course. These steps can happen
-   simultaneously.
-   * The course team sets up video hosting services.
-   * The course team creates videos.
-   * The course team contracts with 3Play Media, cielo24, or another third
-     party transcript provider.
-#. The course team uploads videos and transcripts. These steps can happen
-   simultaneously.
-   * The course team uploads the videos to the Video Uploads page.
-   * The course team uploads the transcripts to the Files & Uploads page.
-#. The course team creates video components and adds the video information to
-   the components.
+#. The course team :ref:`prepares to add videos to the course <Preparing a
+   Video>`. These steps can happen simultaneously.
 
+   * The course team sets up :ref:`video hosting services <Set Up a Hosting
+     Service>`.
+   * The course team :ref:`creates videos <Create a Video>`.
+   * The course team :ref:`contracts with a third party transcript
+     provider<Obtain a Video Transcript>`, such as 3Play Media or cielo24.
 
+#. The course team :ref:`uploads videos <Upload a Video>` to the **Video
+   Uploads** page.
+
+#. The course team :ref:`creates video components <Add a Video to an edx org
+   Course>` and adds the video and transcript information to the components.
+
+For more information, see :ref:`Obtain a Video Transcript` or :ref:`Add
+a Video to a Course`.

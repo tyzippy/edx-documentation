@@ -4,17 +4,20 @@
 Preparing a Video
 #########################
 
-
 Before you add a video to a course, you need the following items.
 
 * A place to :ref:`host<Set Up a Hosting Service>`, or store, your videos.
-* A video that meets the recommended :ref:`specifications<REFERENCE>`.
+* A video that meets the recommended :ref:`specifications <Create a Video>`.
 * A :ref:`transcript<Obtain a Video Transcript>` in SubRip Text (.srt) format
   for the video.
+
+For more information, see the following sections.
 
 .. contents::
  :local:
  :depth: 1
+
+.. _Set Up a Hosting Service:
 
 ************************
 Set Up a Hosting Service
@@ -22,7 +25,7 @@ Set Up a Hosting Service
 
 .. only:: Partners
 
-  .. note
+   .. note::
     For courses on edx.org, you do not have to set up a hosting service to
     store your videos. You can skip to the :ref:`Create a Video` section.
 
@@ -31,12 +34,12 @@ Set Up a Hosting Service
 
 .. only:: Open_edX
 
-  You must work with a third party hosting site to make your videos available
-  for streaming or download.
+   You must work with a third party hosting site to make your videos available
+   for streaming or download.
 
-You can use any video hosting site that you want. Many courses use Amazon S3.
-When you select a video hosting site, we strongly recommend that you keep the
-following information in mind.
+You can use any video hosting site that you want. Many courses use `Amazon
+S3`_. When you select a video hosting site, we strongly recommend that you keep
+the following information in mind.
 
 * The hosting site might have to handle high traffic volume.
 * Not all hosting sites are available in all countries or regions. We recommend
@@ -44,13 +47,14 @@ following information in mind.
 * Learners' internet connections vary widely. We recommend that you make your
   videos available for both download and streaming.
 * The URL for your videos must end in .mp4, .mpeg, .webm, or .ogg. The video
-  player cannot support videos that you upload on sites such as Vimeo.
+  player cannot support videos that you upload on sites such as YouTube or
+  Vimeo.
 
   .. note::
     To help make sure all standard browsers can play your video, we strongly
     recommend that you use .mp4 format.
 
-.. _Create the Video:
+.. _Create a Video:
 
 ******************************
 Create a Video
@@ -63,13 +67,13 @@ extensive experimental research in student learning.
 * The `Creating Videos`_ section of `Overview of Creating an edX Course`_
 * Richard E. Mayer's `12 Principles of Multimedia Learning`_
 
-.. _Compression Specifications:
-
 When you create video files, keep the following guidelines in mind.
 
 .. contents::
  :local:
  :depth: 1
+
+.. _Video Guidelines:
 
 ==============================
 General Guidelines
@@ -81,32 +85,40 @@ General Guidelines
 * Each video should follow established :ref:`file naming conventions <File
   Naming Conventions>` and :ref:`video compression specifications <Video
   Compression Specifications>`.
-* The video player supports videos in .mp4, .mpeg, .webm, and .ogg format.
-  However, to help make sure all standard browsers can play your video, we
-  **strongly** recommend that you use the .mp4 format.
 
 .. only:: Partners
 
-  For courses on edx.org, your videos must use the .mp4 or .mov format. For
-  more information, see Uploading Videos in Studio.
+  * The video player supports videos in .mp4, .mov, .mpeg, .webm, and .ogg
+    format. However, to help make sure all standard browsers can play your
+    video, we **strongly** recommend that you use the .mp4 format.
 
-  For courses on Edge, we strongly recommend that you create additional copies
-  of your videos in the following resolutions to provide the best possible
-  experience for learners who are using different devices. When multiple videos
-  are available, the video player automatically plays the best video for each
-  learner's device and internet connection.
+    For courses on edx.org, your videos must use the .mp4 or .mov format.
+
+    For courses on Edge, we also strongly recommend that you create additional
+    copies of your videos in the following resolutions. When multiple videos
+    are available, the video player automatically plays the best video for each
+    learner's device and internet connection.
+
+    * 1080p
+    * 720p
+    * Mobile 360p
 
 .. only:: Open_edX
 
-  Additionally, we strongly recommend that you create copies of your videos in
-  the following resolutions to provide the best possible experience for
-  learners who are using different devices. When multiple resolutions are
-  available, the video player automatically plays the best video for each
-  learner's device and internet connection.
+  * The video player supports videos in .mp4, .mov, .mpeg, .webm, and .ogg
+    format. However, to help make sure all standard browsers can play your
+    video, we **strongly** recommend that you use the .mp4 format.
 
-* 1080p
-* 720p
-* Mobile 360p
+    Additionally, we strongly recommend that you create copies of your videos
+    in the following resolutions. When multiple resolutions are available, the
+    video player automatically plays the best video for each learner's device
+    and internet connection.
+
+    * 1080p
+    * 720p
+    * Mobile 360p
+
+
 
 .. _File Naming Conventions:
 
@@ -149,7 +161,7 @@ This convention might yield the following file name.
 Video Compression Specifications
 =================================
 
-only:: Partners
+.. only:: Partners
 
   For courses on edx.org, all videos must comply with the following
   specifications.
@@ -157,14 +169,14 @@ only:: Partners
   For courses on Edge, the following video compression specifications are
   strongly recommended, but not required.
 
-only:: Open_edX
+.. only:: Open_edX
 
   The following video compression specifications are strongly recommended, but
   not required.
 
 
 .. list-table::
-   :widths: 10 20 20
+   :widths: 10 20
    :stub-columns: 1
 
    * - :ref:`Codec<codec_g>`
@@ -189,6 +201,8 @@ only:: Open_edX
    * - Audio
      - :ref:`AAC<AAC>` 44.1 / 192 kbps
 
+.. _Obtain a Video Transcript:
+
 ******************************
 Obtain a Video Transcript
 ******************************
@@ -212,11 +226,11 @@ Transcripts are available to learners in the following ways.
 Obtaining a Video Transcript
 =============================
 
-.. only:: Partner
+.. only:: Partners
 
-  For courses on edx.org, transcripts must be in the SubRip Text (.srt) format.
-  For courses on Edge, we strongly recommend that you obtain timed transcripts
-  in the .srt format.
+   For courses on edx.org, transcripts must be in the SubRip Text (.srt)
+   format. For courses on Edge, we strongly recommend that you obtain timed
+   transcripts in the .srt format.
 
   To obtain a transcript in .srt format, you can work with a transcript
   provider such as `3Play Media`_ or `cielo24`_. 3Play Media and cielo24 offer
@@ -236,6 +250,7 @@ Obtaining a Video Transcript
     If you use a third party transcript provider other than 3Play Media or
     cielo24, make sure that your finished transcripts are in .srt format.
 
+  .. _Integrated Transcripts:
 
   Integrated Transcripts
   **********************
@@ -243,7 +258,7 @@ Obtaining a Video Transcript
   When you use integrated transcripts, you upload your videos in Studio. The
   edX processing service then creates transcripts, uploads the transcripts, and
   links the transcripts with your videos automatically. For more information,
-  see <LINK TO INFO ABOUT VIDEO PROCESSING SERVICE>.
+  see :ref:`Automated Video Process for Integrated Transcripts`.
 
   To set up integrated video transcripts, follow these steps.
 
@@ -278,6 +293,7 @@ Obtaining a Video Transcript
      * If your organization uses cielo24, select cielo24 under Automated
        Transcripts, enter your API key, and then select Update Settings.
 
+  .. _Non Integrated Transcripts:
 
   Non-Integrated Transcripts
   **************************
@@ -311,14 +327,13 @@ following conventions for naming your transcript files.
   .. note::
     If your course uses integrated video transcripts, the edX video processing
     service names your transcripts automatically. For more information, see
-    :ref:`Integrated Video Transcripts`.
-
+    :ref:`Integrated Transcripts`.
 
 * Give each transcript file an identifying name that is unique across all of
   your course uploads, including non-transcript files.
 * Make sure that the transcript contains no special characters, such as ç, å,
   or ó.
-* Make sure that the file type, `.srt`, is in lowercase.
+* Make sure that the file type (``.srt``) is in lowercase.
 * Do not include periods in file names other than the period before the .srt
   file type.
 

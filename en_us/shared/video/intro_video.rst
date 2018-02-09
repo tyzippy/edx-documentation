@@ -1,4 +1,6 @@
-.. _Creating and Adding Video Content:
+:orphan:
+
+.. _Creating Video Content:
 
 ####################################
 Creating and Adding Video Content
@@ -22,3 +24,4 @@ For more information about how learners can interact with course videos, see
    It is very important that all of your videos are accessible to learners with
    disabilities. Be sure to review :ref:`Creating Accessible Media` before you
    create videos for your course.
+
