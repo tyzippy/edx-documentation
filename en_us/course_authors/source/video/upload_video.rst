@@ -59,6 +59,12 @@ the process has the following steps.
  :alt: The video process for courses with integrated video transcripts, as
      detailed in the following numbered list.
 
+########################################
+########################################
+New VidProc-IT.html diagram - need to convert to .png and format, etc.
+########################################
+########################################
+
 #. The course team uploads the video file on the **Video Uploads** page.
 #. The process assigns a unique video ID to the video. This video ID represents
    all of the files, hosting locations, and transcripts that the automated
