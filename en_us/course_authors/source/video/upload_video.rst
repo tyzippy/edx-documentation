@@ -51,27 +51,24 @@ If the course has integrated video transcripts through 3Play Media or cielo24,
 the process has the following steps.
 
 .. note::
-  If a step does not complete successfully, the process automatically tries
-  again multiple times.
+  If a step in the process does not complete successfully, the process
+  automatically tries again multiple times. If the process does not complete
+  successfully after multiple tries, an :ref:`error status <Video Processing
+  Statuses>` appears in the list of videos on the **Video Uploads** page.
 
 .. image:: ../../../shared/images/VidProc-IT.png
  :width: 600
  :alt: The video process for courses with integrated video transcripts, as
      detailed in the following numbered list.
 
-########################################
-########################################
-New VidProc-IT.html diagram - need to convert to .png and format, etc.
-########################################
-########################################
-
 #. The course team uploads the video file on the **Video Uploads** page.
 #. The process assigns a unique video ID to the video. This video ID represents
    all of the files, hosting locations, and transcripts that the automated
    process creates.
-#. The process encodes video files in different formats.
-#. The process creates transcripts for the video.
-#. The process uploads the video files and transcripts to the hosting service.
+#. The process encodes video files in different formats, and then uploads the
+   video files to the hosting service.
+#. The process creates transcripts for the video, and then uploads the
+   transcripts to the hosting service.
 
 .. important::
   As soon as the automated video process has assigned a video ID to the video,
@@ -87,6 +84,12 @@ Automated Video Process for Non-Integrated Transcripts
 
 If the course uses a transcript provider that does not offer integrated
 transcripts, the video processing service completes the following steps.
+
+.. note::
+  If a step in the process does not complete successfully, the process
+  automatically tries again multiple times. If the process does not complete
+  successfully after multiple tries, an :ref:`error status <Video Processing
+  Statuses>` appears in the list of videos on the **Video Uploads** page.
 
 .. image:: ../../../shared/images/VidProc-NoIT.png
  :width: 600
@@ -106,9 +109,6 @@ transcripts, the video processing service completes the following steps.
   you can add the video to the course. However, the video is not visible in the
   course until the automated process is complete. The process can take up to 24
   hours.
-
-If a step does not complete successfully, the process automatically tries again
-multiple times.
 
 ====================================
 Upload a Video for an edx.org Course
@@ -179,41 +179,77 @@ Video Processing Statuses
 
 The encoding and hosting process assigns the following statuses to video files.
 
-* **Failed** files did not complete processing successfully. Verify that you
-  can play your original .mp4 or .mov file and that it meets the other
-  specifications for successful video processing. Then upload the file, or a
-  replacement file, again. If processing fails more than once for a file,
-  contact edX partner support at ``partner-support@edx.org``.
+.. list-table::
+  :widths: 25 75
+  :header-rows: 1
 
-  For more information, see :ref:`Compression Specifications`.
+  * - **Failed**
+    - Files did not complete processing successfully. If this status appears,
+      follow these steps.
 
-* **Failed Duplicate** is the status for files that failed to upload because
-  the system identified the files as duplicates.
+      #. Verify that you can play your original .mp4 or .mov file and that the
+         file meets all :ref:`specifications <Video Guidelines>` for successful
+         video processing.
+      #. Remove the video file from the **Video Uploads** page by selecting the
+         "Remove this video" icon for the video.
+      #. Upload the original file again, or upload a replacement file.
 
-* **In Progress** files are undergoing processing to create additional file
-  formats or waiting for successful transfer to the host sites.
+      If processing fails more than one time for a file, contact edX partner support at ``partner-support@edx.org``.
 
-* **Invalid Token** indicates a configuration problem. If this status appears,
-  contact edX partner support at ``partner-support@edx.org``.
+  * - **Failed Duplicate**
+    - Files failed to upload because the system identified the files as
+      duplicates.
+  * - **In Progress**
+    - Files are undergoing processing to create additional file formats or
+      waiting for successful transfer to the host sites.
+  * - **Invalid Token** indicates a
+    - A configuration problem has occurred. If this status appears, contact edX
+      partner support at ``partner-support@edx.org``.
+  * - **Ready**
+    - Files are ready to add to your course and for learners to view. When you
+      click the names of these files, a file on one of the external host sites
+      plays. Processing continues at video hosting sites for 24 hours after you
+      upload a file.
 
-* **Ready** files are ready for inclusion in your course and for learners to
-  view.  When you click the names of these files, a file hosted on one of the
-  external host sites plays. Processing continues at video hosting sites for 24
-  hours after you upload a file.
+      For more information, see :ref:`Add a Video to a Course`.
 
-  For more information, see :ref:`Add a Video to a Course`.
+  * - **Transcription in Progress**
+    - The encoding process has completed, and video transcripts are being
+      created.
 
-* **Unknown** indicates a configuration problem. If this status appears,
-  contact edX partner support at ``partner-support@edx.org``.
+      If a video has this status for more than 48 hours, follow these steps.
 
-* **Uploaded** files have successfully completed uploading to the edX servers.
+      #. Verify that the file that you uploaded is in .mp4 or .mov format and
+         that the file meets all :ref:`specifications <Video Guidelines>` for
+         successful video processing.
+      #. Remove the video file from the **Video Uploads** page by selecting the
+         "Remove this video" icon for the video.
+      #. Upload the original file again, or upload a replacement file.
 
-* **Uploading** files have not yet reached the edX servers successfully. For
-  files that encounter a problem, verify that the file that you uploaded is in
-  .mp4 or .mov format and meets the other specifications for successful video
-  processing. Then try uploading the file (or its replacement) again.
+      If this problem occurs more than one time for a file, contact edX partner
+      support at ``partner-support@edx.org``.
 
-  For more information, see :ref:`Video Guidelines`.
+  * - **Transcript Ready**
+    - The transcript creation process has completed.
+  * - **Unknown**
+    - A configuration problem has occurred. If this status appears, contact edX
+      partner support at ``partner-support@edx.org``.
+  * - **Uploaded**
+    - The file has successfully completed uploading to the edX servers.
+  * - **Uploading**
+    - The file has not yet reached the edX servers. If a video has this status
+      for more than 48 hours, follow these steps.
+
+      #. Verify that the file that you uploaded is in .mp4 or .mov format and
+         that the file meets all :ref:`specifications <Video Guidelines>` for
+         successful video processing.
+      #. Remove the video file from the **Video Uploads** page by selecting the
+         "Remove this video" icon for the video.
+      #. Upload the original file again, or upload a replacement file.
+
+      If this problem occurs more than one time for a file, contact edX partner
+      support at ``partner-support@edx.org``.
+
 
 
 .. _Reporting Video Status:

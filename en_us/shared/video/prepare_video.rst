@@ -131,6 +131,14 @@ organizations define a naming convention for video files, and use that
 convention in videos for all courses to facilitate identifying and tracking
 video files.
 
+When you name your video files, keep the following guidelines in mind.
+
+* Include only alphanumeric characters and underscores in video file names.
+* Make sure that the video file name contains no special characters, such as ç,
+  å, or ó.
+* Do not use periods except for the period before the file name extension (for
+  example, .mp4).
+
 At a minimum, your naming convention should include these elements.
 
 * A course identifier.
@@ -148,12 +156,6 @@ This convention might yield the following file name.
 ::
 
   SPU27_2015_S1_SS3_U4_v2.mp4
-
-.. note::
-  Include only alphanumeric characters and underscores in video file names. Do
-  not use periods except for the period before the file name extension (for
-  example, .mp4).
-
 
 .. _Video Compression Specifications:
 
@@ -288,11 +290,12 @@ Obtaining a Video Transcript
       organization's administrator.
 
      * If your organization uses 3Play Media, select **3Play Media** under
-       **Automated Transcripts**, and then enter your API key and secret key.
-       When you have entered this information, select **Update Settings**.
+       **Automated Transcripts**, enter your API key and secret key, and then
+       select **Update Settings**.
 
      * If your organization uses cielo24, select **cielo24** under **Automated
-       Transcripts**, enter your API key, and then select **Update Settings**.
+       Transcripts**, enter your username and API key, and then select **Update
+       Settings**.
 
   .. _Non Integrated Transcripts:
 
