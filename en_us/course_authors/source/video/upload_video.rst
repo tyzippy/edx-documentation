@@ -183,7 +183,9 @@ The encoding and hosting process assigns the following statuses to video files.
   :widths: 25 75
   :header-rows: 1
 
-  * - **Failed**
+  * - Status
+    - Description
+  * - *Failed**
     - Files did not complete processing successfully. If this status appears,
       follow these steps.
 
@@ -194,7 +196,8 @@ The encoding and hosting process assigns the following statuses to video files.
          "Remove this video" icon for the video.
       #. Upload the original file again, or upload a replacement file.
 
-      If processing fails more than one time for a file, contact edX partner support at ``partner-support@edx.org``.
+      If processing fails more than one time for a file, contact edX partner
+      support at ``partner-support@edx.org``.
 
   * - **Failed Duplicate**
     - Files failed to upload because the system identified the files as
