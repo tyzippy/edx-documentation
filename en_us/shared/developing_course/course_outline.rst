@@ -43,42 +43,15 @@ following message is visible.
 
 To add content, you :ref:`create a section<Create a Section>`.
 
-****************************************
-Understanding a Course Outline in Studio
-****************************************
+******************************
+Understanding a Course Outline
+******************************
 
-The following example shows a partial course outline in Studio, with
-indications for sections, subsections, and units. As you develop your course,
-it will begin to look like this example.
+Course authors build a course outline on the **Course Outline** page in Studio.
+Learners see this course outline in the LMS.
 
-.. image:: ../../../shared/images/outline-callouts.png
- :alt: An outline with callouts for sections, subsections, and units.
- :width: 500
-
-Courses are organized into the following levels.
-
-#. :ref:`Sections<Developing Course Sections>`
-#. :ref:`Subsections<Developing Course Subsections>`
-#. :ref:`Units<Developing Course Units>`
-
-:ref:`Components<Developing Course Components>` are not shown in the outline.
-You add or access components by selecting the units that contain them.
-
-The topics in the rest of this section provide more detail about the course
-outline.
-
-*****************************************
-View the Course Outline as a Learner
-*****************************************
-
-To view the Studio course outline the way a learner experiences the course
-outline, go to the **Course Outline** page in Studio, and then select either
-**Preview** or **View Live**. The **Course** page in the LMS opens
-automatically.
-
-When the **Course** page opens in the LMS, the course outline that is visible
-reflects the sections, subsections, and units on the **Course Outline** page in
-Studio.
+To view the course outline in the LMS, go to the **Course Outline** page in
+Studio, and then select either **Preview** or **View Live**.
 
 .. include:: ../../../shared/developing_course/outline_studio_lms.rst
 

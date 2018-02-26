@@ -10,6 +10,8 @@ This topic describes how to check and understand your progress in a course.
   :local:
   :depth: 2
 
+.. _SFD Progress Indicators:
+
 *******************
 Progress Indicators
 *******************

@@ -1,6 +1,5 @@
 In the following image, the Studio view of the course outline is on the left.
-On the right is the view of the course outline in the LMS, where learners view
-the course.
+On the right is the view of the course outline in the LMS.
 
 .. image:: ../../../shared/images/Course_Outline_LMS.png
    :alt: Sections, subsections, and units in the course outline in Studio and
@@ -9,9 +8,14 @@ the course.
 
 The numbers represent the following levels.
 
-#. Section
-#. Subsection
-#. Unit
+#. :ref:`Sections<Developing Course Sections>`
+#. :ref:`Subsections<Developing Course Subsections>`
+#. :ref:`Units<Developing Course Units>`
+
+.. note::
+    The **Course Outline** page does not show :ref:`components<Developing
+    Course Components>`. You add or access components by selecting the units
+    that contain the components.
 
 ===========================
 Course Progress Information
