@@ -19,8 +19,8 @@ Below any messages from the course team, you see the course outline.
 At the top of the outline is a **Start Course** option if you have never
 accessed the course, or a **Resume Course** option if you have already accessed
 the course. Select **Start Course** to go to the first section of the course,
-or select any part of the course to jump to it. Click **Resume Course** to jump
-to the part of the course that you last completed.
+or select any part of the course to jump to it. Select **Resume Course** to
+jump to the part of the course that you last completed.
 
 .. note::
   When you complete a part of a course, a green check mark is visible on the

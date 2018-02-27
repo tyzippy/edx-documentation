@@ -23,12 +23,12 @@ visible in two places.
 * The navigation bar at the top of the page.
 
 These check marks appear when you complete all of the content in a part of the
-course. The part might be known as a unit, section, module, week, lesson, or
+course. The part might be called a unit, section, module, week, lesson, or
 other part, depending on the terms your course uses.
 
 For example, in the following image, the learner has completed all of the
-content in the "Welcome" part of the course. The learner has also completed
-some of the content in the "Week 1: Approach" part.
+content in the "Welcome" part of the course, as well as some of the content in
+the "Week 1: Approach" part.
 
 .. image:: ../../shared/images/CourseOutlineProgress.png
  :alt: The course outline, showing green check marks for completed content.
