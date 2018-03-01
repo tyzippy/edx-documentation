@@ -5,7 +5,6 @@ import os
 import sys
 import urllib
 
-import edx_theme
 
 # on_rtd is whether we are on readthedocs.io, this line of code grabbed from docs.readthedocs.io
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
@@ -29,7 +28,6 @@ pygments_style = 'sphinx'
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'edx_theme',
-    'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
@@ -58,14 +56,7 @@ if on_rtd:
 
 html_theme = 'edx_theme'
 
-html_theme_path = [edx_theme.get_html_theme_path()]
 
-html_theme_options = {}
-html_theme_options['navigation_depth'] = 3
-
-html_favicon = os.path.join(edx_theme.get_html_theme_path(), 'edx_theme', 'static', 'css', 'favicon.ico')
-
-# Help and Feedback links.  These are customized for the category and audience
 # of the book.  Add a line to the book's conf.py like this:
 #
 #   set_audience(PARTNER, COURSE_TEAMS)
