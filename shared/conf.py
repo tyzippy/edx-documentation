@@ -27,7 +27,6 @@ pygments_style = 'sphinx'
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'edx_theme',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
@@ -54,7 +53,6 @@ if on_rtd:
     html_context["github_base_account"] = 'edx'
     html_context["github_project"] = 'edx-documentation'
 
-html_theme = 'edx_theme'
 
 
 # of the book.  Add a line to the book's conf.py like this:
